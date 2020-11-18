@@ -1,0 +1,7 @@
+body {
+    font-family: 'Goldman', cursive;
+    background-image: linear-gradient(120deg, maroon, orange);
+    color: white;
+    overflow: hidden;
+    min-height: 100vh;
+}
