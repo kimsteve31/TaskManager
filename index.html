@@ -12,19 +12,13 @@
     <div class="container">
         <h1> Steve's To-Do App</h1>
         <form id="add-form">
-            <input type="text" id="add-item" placeholder="Add Item">
-            <i class="fa fa-plus-circle fa-2x" aria-hidden="true" id='add'></i>
+            <input type="text" id="add-item" autocomplete="off" placeholder="Add Item" maxlength="26" required>
+            <button id='add' type="submit">
+                <i class="fa fa-plus-circle fa-2x" aria-hidden="true"></i>
+            </button>
         </form>
         <div class="task-list">
-            <ul>
-                <li class="item">
-                    <p class "item-name">Workout</p>
-                    <div id="item-options">
-                        <i class="fa fa-check-circle" id='check'></i>
-                        <i class="fa fa-trash" id='trash'></i>
-                    </div>
-                </li>
-            </ul>
+            <ul id="ul-task-list"></ul>
         </div>
     </div>
     <script src="app.js"></script>
