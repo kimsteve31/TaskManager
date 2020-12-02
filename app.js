@@ -37,6 +37,7 @@ function addItem(event) {
     todoDiv.appendChild(todoButtonCheck);
     todoDiv.appendChild(todoButtonTrash);
     taskList.appendChild(todoLi);
+    inputItem.value = "";
 }
 
 // This function checks an item to be complete or removes it
