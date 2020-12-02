@@ -47,7 +47,7 @@ function updateItem(event) {
         itemParent.remove();
     }
     if(item.classList[0] === 'check') {
-        itemParent.style.backgroundColor = "green";
+        itemParent.style.backgroundColor = "#90ee90";
         item.parentElement.style.justifyContent = 'flex-end';
         item.remove();
     }
